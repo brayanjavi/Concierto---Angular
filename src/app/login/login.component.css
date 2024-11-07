@@ -1,0 +1,58 @@
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center; /* Centrar el contenido */
+}
+
+.login-logo {
+    max-width: 100px; /* Ajusta el tamaño del logo */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el formulario */
+}
+
+.login-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    align-self: flex-start; /* Alinear las etiquetas a la izquierda */
+}
+
+.login-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Hacer que los inputs ocupen todo el ancho */
+}
+
+.login-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8e2b2b; /* Color del botón */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Hacer que el botón ocupe todo el ancho */
+}
+
+.login-container button:hover {
+    background-color: #6e1f1f; /* Color del botón al pasar el cursor */
+}
