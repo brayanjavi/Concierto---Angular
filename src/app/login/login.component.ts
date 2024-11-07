@@ -21,7 +21,7 @@ export class LoginComponent {
       const result = await this.authService.login(this.username, this.password);
       if (result) {
         this.router.navigate(['/home']);
-        //alert('Login correcto');
+        
       }
     } catch (error) {
       console.error('Login failed', error);
