@@ -1,6 +1,7 @@
 <div class="login-container">
-<!--     <img src="assets/images/oitic.png" alt="logo" class="login-logo">
- -->    <h2>Login</h2>
+    <!-- Añadir este componente para mostrar los mensajes de Toast -->
+    <img src="assets/images/oitic.png" alt="logo" class="login-logo">
+    <h2>Login</h2>
     <form (ngSubmit)="login()">
         <div>
             <label for="username">Username</label>
@@ -10,6 +11,7 @@
             <label for="password">Password</label>
             <input type="password" id="password" [(ngModel)]="password" name="password" required>
         </div>
+        <p-toast></p-toast>
         <button type="submit">Login</button>
     </form>
 </div>

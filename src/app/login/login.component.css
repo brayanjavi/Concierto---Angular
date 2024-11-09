@@ -7,10 +7,11 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     text-align: center; /* Centrar el contenido */
+    margin-top: 100px; /* Espacio arriba del formulario */
 }
 
 .login-logo {
-    max-width: 100px; /* Ajusta el tamaño del logo */
+    max-width: 300px; /* Ajusta el tamaño del logo */
     margin-bottom: 20px; /* Espacio debajo del logo */
 }
 
@@ -36,7 +37,7 @@
     margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 50px; /* Borde circular */
     font-size: 16px;
     width: 100%; /* Hacer que los inputs ocupen todo el ancho */
 }
